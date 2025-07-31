@@ -8,3 +8,7 @@ policy "allowed-terraform-version" {
 policy "allowed-terraform-version" {
   enforcement_level = "advisory"
 }
+
+policy "allowed-terraform-version" {
+  enforcement_level = "hard-mandatory"
+}
